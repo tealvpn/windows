@@ -6,6 +6,10 @@ allowance with no card and no ads. Teal Pro is unlimited and opens every locatio
 This page hosts the **direct download** of the Teal VPN installer for Windows 10 (version 1809 or newer) and
 Windows 11. The installer is signed by **FXOLIO LLC**. This repository holds no source code, only the releases.
 
+## Screenshots
+
+<p><img src="screenshots/connect.webp" alt="Connected" width="420"> <img src="screenshots/locations.webp" alt="Locations" width="420"> <img src="screenshots/protection.webp" alt="Protection" width="420"></p>
+
 ## Download
 
 - **Intel / AMD PCs (most PCs):** [TealVPN-Setup-x64.exe](https://github.com/tealvpn/windows/releases/latest/download/TealVPN-Setup-x64.exe)
