@@ -4,7 +4,7 @@ Teal VPN is a private VPN that is built to connect on networks that block VPNs. 
 allowance with no card and no ads. Teal Pro is unlimited and opens every location.
 
 This page hosts the **direct download** of the Teal VPN installer for Windows 10 (version 1809 or newer) and
-Windows 11. The installer is signed by **FXOLIO LLC**. This repository holds no source code, only the releases.
+Windows 11. The installer is digitally signed by us. This repository holds no source code, only the releases.
 
 ## Screenshots
 
@@ -20,7 +20,7 @@ Every version is on the [Releases](https://github.com/tealvpn/windows/releases) 
 ## Install
 
 1. Open the downloaded installer. If Windows says "Windows protected your PC", click **More info**, check that the
-   publisher is **FXOLIO LLC**, then **Run anyway**.
+   publisher is the one named on [tealvpn.com/windows](https://tealvpn.com/windows), then **Run anyway**.
 2. Allow the one Windows prompt (the VPN service needs administrator rights to install).
 3. Sign in and press **Connect**.
 
