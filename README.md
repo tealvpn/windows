@@ -1,43 +1,42 @@
-# Teal VPN for Windows
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/banner.png" alt="Teal VPN" width="100%">
+</p>
 
-Teal VPN is a private VPN that is built to connect on networks that block VPNs. Teal Free gives you a daily data
-allowance with no card and no ads. Teal Pro is unlimited and opens every location.
+<h1 align="center">Teal VPN for Windows</h1>
+<p align="center">Windows 10 (version 1809 or newer) and Windows 11.</p>
 
-This page hosts the **direct download** of the Teal VPN installer for Windows 10 (version 1809 or newer) and
-Windows 11. The installer is digitally signed by us. This repository holds no source code, only the releases.
+<p align="center">
+  <a href="https://github.com/tealvpn/windows/releases/latest/download/TealVPN-Setup-x64.exe"><img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/btn-windows.png" alt="Download for Windows" height="56"></a>
+  <a href="https://github.com/tealvpn/windows/releases/latest/download/TealVPN-Setup-arm64.exe"><img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/btn-windows-arm.png" alt="Windows on ARM" height="56"></a>
+</p>
+<p align="center"><sub>Intel / AMD PCs: the first button. Snapdragon and other ARM PCs: Windows on ARM.</sub></p>
 
-## Screenshots
-
-<p><img src="screenshots/connect.webp" alt="Connected" width="420"> <img src="screenshots/locations.webp" alt="Locations" width="420"> <img src="screenshots/protection.webp" alt="Protection" width="420"></p>
-
-## Download
-
-- **Intel / AMD PCs (most PCs):** [TealVPN-Setup-x64.exe](https://github.com/tealvpn/windows/releases/latest/download/TealVPN-Setup-x64.exe)
-- **ARM PCs (Snapdragon, Surface Pro X):** [TealVPN-Setup-arm64.exe](https://github.com/tealvpn/windows/releases/latest/download/TealVPN-Setup-arm64.exe)
-
-Every version is on the [Releases](https://github.com/tealvpn/windows/releases) page.
+<p align="center">
+  <img src="screenshots/connect.webp" alt="Connected" width="420">
+  <img src="screenshots/locations.webp" alt="Locations" width="420">
+  <img src="screenshots/protection.webp" alt="Protection" width="420">
+</p>
 
 ## Install
 
-1. Open the downloaded installer. If Windows says "Windows protected your PC", click **More info**, check that the
-   publisher is the one named on [tealvpn.com/windows](https://tealvpn.com/windows), then **Run anyway**.
-2. Allow the one Windows prompt (the VPN service needs administrator rights to install).
-3. Sign in and press **Connect**.
+1. Open the downloaded installer.
+2. If Windows says "Windows protected your PC", click **More info**, check that the publisher is the one named on [tealvpn.com/windows](https://tealvpn.com/windows), then **Run anyway**.
+3. Allow the one Windows prompt (the VPN service needs administrator rights to install).
+4. Sign in and click **Connect**.
 
-## Check the file (SHA-256)
+## Check the file
 
-Each release lists the files' SHA-256 and carries a `.sha256` file for each installer. Compare it with your download:
+Each release lists the SHA-256 of each installer and carries a `.sha256` file for it.
 
 - Windows: `certutil -hashfile TealVPN-Setup-x64.exe SHA256`
 - Linux / Mac: `sha256sum -c TealVPN-Setup-x64.exe.sha256`
+
+## Updates
 
 The app updates itself and checks the signature before installing an update.
 
 ## Official links
 
-- Website: https://tealvpn.com
-- Windows: https://tealvpn.com/windows
-- Your account: https://account.tealvpn.com
-- Help: support@tealvpn.com
+[tealvpn.com](https://tealvpn.com/windows) · [Your account](https://account.tealvpn.com) · [All Teal VPN downloads](https://github.com/tealvpn) · support@tealvpn.com
 
-Download Teal VPN only from tealvpn.com or this page.
+Download Teal VPN only from tealvpn.com, Google Play or this GitHub organization. This repository holds no source code, only the releases.
