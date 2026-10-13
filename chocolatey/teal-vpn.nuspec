@@ -8,7 +8,7 @@
     <title>Teal VPN</title>
     <authors>Fxolio LLC</authors>
     <projectUrl>https://tealvpn.com/windows</projectUrl>
-    <iconUrl>https://tealvpn.com/assets/teal-logo-512.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/tealvpn/windows@main/chocolatey/icon.png</iconUrl>
     <copyright>2026 Fxolio LLC</copyright>
     <licenseUrl>https://tealvpn.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
