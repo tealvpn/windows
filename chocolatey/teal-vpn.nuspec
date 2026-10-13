@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>teal-vpn</id>
+    <version>0.1.30</version>
+    <packageSourceUrl>https://github.com/tealvpn/windows/tree/main/chocolatey</packageSourceUrl>
+    <owners>Fxolio LLC</owners>
+    <title>Teal VPN</title>
+    <authors>Fxolio LLC</authors>
+    <projectUrl>https://tealvpn.com/windows</projectUrl>
+    <iconUrl>https://tealvpn.com/assets/teal-logo-512.png</iconUrl>
+    <copyright>2026 Fxolio LLC</copyright>
+    <licenseUrl>https://tealvpn.com/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/tealvpn/windows</projectSourceUrl>
+    <docsUrl>https://tealvpn.com/support</docsUrl>
+    <bugTrackerUrl>https://tealvpn.com/support</bugTrackerUrl>
+    <tags>teal-vpn vpn privacy wifi security admin</tags>
+    <summary>Private VPN for Windows 10 and 11 with a free plan of 500 MB a day, no ads and no browsing logs.</summary>
+    <description>Teal VPN is a private VPN for Windows 10 and 11 (Intel, AMD and ARM). It encrypts your connection on hotel, cafe, office and airport Wi-Fi and is made for networks that block or detect VPN traffic: the connection is obfuscated and the app tries another route by itself when one stalls.
+
+Teal Free is included with every account: 500 MB of data a day, up to 2 devices, no payment details and no ads. Teal Pro adds unlimited data, every location and up to 3 devices. Sign in with Google, Apple or email; the same account works on Android, Mac and Linux.
+
+This package downloads the signed installer from the GitHub release of the same version (SHA-256 pinned) and runs it silently. Uninstall removes the app, the service and the driver.</description>
+    <releaseNotes>https://github.com/tealvpn/windows/releases/tag/v0.1.30</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
